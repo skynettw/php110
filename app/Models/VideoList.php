@@ -12,4 +12,6 @@ class VideoList extends Model
         'name',
         'count',
     ];
+
+
 }
