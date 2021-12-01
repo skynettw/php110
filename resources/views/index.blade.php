@@ -10,6 +10,9 @@
 
 @section("maincontent")
 <h2>我的影音列表</h2>
+@auth
+<h4>{{ Auth::user()->email }}</h4>
+@endauth
         <hr>
         @auth
         <form action="/add/" method="POST">
